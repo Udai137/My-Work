@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20241010 01:18:25.575" rpa="false" schemaversion="2">
+<suite id="s1" name="Test Scripts" source="D:\Robot Framework\Test Scripts">
+<suite id="s1-s1" name="My Automation" source="D:\Robot Framework\Test Scripts\My_Automation.robot">
+<test id="s1-s1-t1" name="Ui Login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.saucedemo.com/v1/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20241010 01:18:25.812" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/v1/'.</msg>
+<status status="PASS" starttime="20241010 01:18:25.812" endtime="20241010 01:18:27.711"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>//div[@class="login_logo"]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20241010 01:18:27.711" endtime="20241010 01:18:27.727"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@data-test="username"]</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241010 01:18:27.727" level="INFO">Typing text 'standard_user' into text field 'xpath://input[@data-test="username"]'.</msg>
+<status status="PASS" starttime="20241010 01:18:27.727" endtime="20241010 01:18:27.863"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@data-test="password"]</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241010 01:18:27.871" level="INFO">Typing text 'secret_sauce' into text field 'xpath://input[@data-test="password"]'.</msg>
+<status status="PASS" starttime="20241010 01:18:27.871" endtime="20241010 01:18:27.975"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://input[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20241010 01:18:27.975" level="INFO">Clicking button 'xpath://input[@id="login-button"]'.</msg>
+<status status="PASS" starttime="20241010 01:18:27.975" endtime="20241010 01:18:29.296"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://div[@class="product_label"]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20241010 01:18:29.311" level="INFO">Current page contains element 'xpath://div[@class="product_label"]'.</msg>
+<status status="PASS" starttime="20241010 01:18:29.296" endtime="20241010 01:18:29.311"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://button[@style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; opacity: 0; font-size: 8px; cursor: pointer;"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20241010 01:18:29.311" level="INFO">Clicking button 'xpath://button[@style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; opacity: 0; font-size: 8px; cursor: pointer;"]'.</msg>
+<status status="PASS" starttime="20241010 01:18:29.311" endtime="20241010 01:18:29.376"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20241010 01:18:29.537" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20241010 01:18:29.376" endtime="20241010 01:18:29.537"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20241010 01:18:29.537" endtime="20241010 01:18:31.669"/>
+</kw>
+<status status="PASS" starttime="20241010 01:18:25.812" endtime="20241010 01:18:31.670"/>
+</test>
+<status status="PASS" starttime="20241010 01:18:25.616" endtime="20241010 01:18:31.680"/>
+</suite>
+<status status="PASS" starttime="20241010 01:18:25.601" endtime="20241010 01:18:31.682"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Scripts">Test Scripts</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="My Automation">Test Scripts.My Automation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

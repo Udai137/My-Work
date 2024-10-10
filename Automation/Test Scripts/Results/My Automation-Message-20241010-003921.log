@@ -1,0 +1,29 @@
+==============================================================================
+20241010 00:39:21.406 - INFO - + START SUITE: My Automation [ ]
+==============================================================================
+20241010 00:39:21.406 - INFO - +- START TEST: My First Testcase [ ]
+------------------------------------------------------------------------------
+20241010 00:39:21.406 - INFO - +-- START KEYWORD: SeleniumLibrary.Open Browser [ https://www.saucedemo.com/v1/ | chrome ]
+20241010 00:39:21.406 - INFO - Opening browser 'chrome' to base url 'https://www.saucedemo.com/v1/'.
+20241010 00:39:23.495 - DEBUG - Opened browser with session id 47b9991f629204994ff5aea3474f3a16.
+20241010 00:39:23.495 - INFO - +-- END KEYWORD: SeleniumLibrary.Open Browser (2089)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20241010 00:39:23.495 - INFO - +-- START KEYWORD: SeleniumLibrary.Wait Until Page Contains Element [ //div[@class="login_logo"] ]
+20241010 00:39:23.511 - INFO - +-- END KEYWORD: SeleniumLibrary.Wait Until Page Contains Element (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20241010 00:39:23.511 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ xpath://input[@data-test="username"] | standard_user ]
+20241010 00:39:23.511 - INFO - Typing text 'standard_user' into text field 'xpath://input[@data-test="username"]'.
+20241010 00:39:23.616 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (105)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20241010 00:39:23.616 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ xpath://input[@data-test="password"] | secret_sauce ]
+20241010 00:39:23.616 - INFO - Typing text 'secret_sauce' into text field 'xpath://input[@data-test="password"]'.
+20241010 00:39:23.712 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (88)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20241010 00:39:23.712 - INFO - +-- START KEYWORD: SeleniumLibrary.Capture Page Screenshot [ ]
+20241010 00:39:23.865 - INFO - </td></tr><tr><td colspan="3"><a href="selenium-screenshot-1.png"><img src="selenium-screenshot-1.png" width="800px"></a>
+20241010 00:39:23.865 - INFO - +-- END KEYWORD: SeleniumLibrary.Capture Page Screenshot (153)
+------------------------------------------------------------------------------
+20241010 00:39:23.865 - INFO - +- END TEST: My First Testcase (2459)
+------------------------------------------------------------------------------
+20241010 00:39:23.873 - INFO - + END SUITE: My Automation (2663)
+==============================================================================

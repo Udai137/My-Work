@@ -1,0 +1,10 @@
+*** Settings ***
+Library           SeleniumLibrary
+*** Keywords ***
+Ui Login
+    Open Browser    https://www.saucedemo.com/v1/    chrome
+    Wait Until Page Contains Element    //div[@class="login_logo"]
+    Input Text    xpath://input[@data-test="username"]    standard_user
+    Input Text    xpath://input[@data-test="password"]    secret_sauce
+    Capture Page Screenshot
+    Click Button    xpath://input[@id="login-button"]
