@@ -20,4 +20,5 @@ Ui Login Using User-Defined Keyword
     Ui Login
 
 Test
+    [Documentation]    dummy
     Ui Login
