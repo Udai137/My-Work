@@ -1,0 +1,5 @@
+n = int(input())
+val = list(map(int, input().split()))
+uniq_val = list(set(val))
+uniq_val.sort()
+print(uniq_val[-2])
