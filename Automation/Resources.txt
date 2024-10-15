@@ -1,5 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
+Library           SSHLibrary
 *** Keywords ***
 Ui Login
     Open Browser    https://www.saucedemo.com/v1/    chrome
